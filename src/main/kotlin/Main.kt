@@ -21,7 +21,6 @@ fun appRun() {
         for (i in 1..<input.size) {
             input[i] = input[i].lowercase()
         }
-        println("")
 
         if (input[1] == "degrees" || input[1] == "degree") {
             input[1] = "${input[1]} ${input[2]}"
