@@ -81,7 +81,7 @@ fun findUnitName(userUnit: String): UnitEnum {
     for (unitEnum in UnitEnum.entries) if (userUnit == unitEnum.initial || userUnit == unitEnum.singular || userUnit == unitEnum.plural || userUnit == unitEnum.initial2 || userUnit == unitEnum.name2) return unitEnum
     return UnitEnum.NONE
 }
-
+//Class with data
 enum class UnitEnum(
     val type: String = "",
     val initial: String = "",
